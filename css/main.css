@@ -1,0 +1,107 @@
+body{
+	zoom:80%;
+}
+
+.nav-container{
+
+	border-top: 2px solid red;
+	box-shadow: 4px 4px 4px #888888;
+	background-color: #fff;
+
+}
+
+
+
+
+.donut{
+	font-weight: bold;
+	font-size: 5rem;
+	color:#BD3733;
+	font-family: 'New Rocker';
+}
+.dropdown-self{
+	border-bottom-right-radius: 5%;
+	border-bottom-left-radius: 5%;
+	box-shadow: 4px 4px 4px #888888; 
+}
+
+.icon-color{
+	color:#BD3733;
+}
+
+.blog-post{
+	border:1px solid #E2E2E2;
+	border-radius: 2%;
+	box-shadow: 2px 2px 2px #888888;
+
+}
+.lead{
+	font-size:1.5rem;
+}
+
+.margin{
+	margin-left:2rem;
+	letter-spacing: .2rem;
+	color: blue;
+}
+.blog-header{
+	margin-top: 10%;
+}
+.write{
+	border: 1px solid #E2E2E2;
+	box-shadow: 2px 2px 2px #888888;
+	color:#BD3733;
+}
+#writelogo{
+	color:#BD3733;
+}
+.sidebar{
+	margin-top:18%;
+	border-left: 1px solid #E2E2E2;
+	border-top:1px solid #E2E2E2;
+	border-right:1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	border-radius: 5%;
+	box-shadow: 2px 2px 2px #888888;
+	display: none;
+	
+}
+#sidebar{
+	display: none;
+}
+
+@media (min-width: 768px) {
+	#sidebar{
+		display: block;
+		
+	}
+  .sidebar {
+  	padding: 2%;
+    position: fixed;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    
+  }
+}
+
+
+.trending{
+	border-bottom: 1px solid #E2E2E2;
+}
+
+
+#post-content{
+	margin-left: 2%;
+	margin-right:2%;
+}
+
+.tagline{
+	font-family: 'Sofia';font-size: 2rem;
+}
+.trending{
+	font-family: 'New Rocker';font-size: 22px;
+}
+
+
